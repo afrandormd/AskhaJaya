@@ -50,13 +50,6 @@ const Navbar = () => {
                     {link.text}
                   </Link>
                 ))}
-                {/* tombol login */}
-                <Button
-                  asChild
-                  className="text-secondary font-semibold hover:bg-secondary hover:text-primary"
-                >
-                  <Link href="/login">Login</Link>
-                </Button>
               </div>
             </div>
             {/* Toggler Menu */}

@@ -35,9 +35,9 @@ export default function FeaturedProductSection() {
     <section className="py-16 px-4 bg-[#FDF6EC]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-[#8B5E34] text-4xl font-serif mb-3">
+          <h1 className="text-4xl font-bold font-serif text-secondary mb-3">
             Produk Pilihan
-          </h2>
+          </h1>
           <p className="text-gray-700 text-lg">
             Produk premium rekomendasi dari kami yang wajib kamu coba!
           </p>
@@ -47,7 +47,7 @@ export default function FeaturedProductSection() {
           {products.map((product, index) => (
             <Card
               key={index}
-              className="rounded-3xl overflow-hidden transform transition-transform hover:-translate-y-1"
+              className="rounded-3xl overflow-hidden transform shadow-lg transition-transform hover:-translate-y-1"
             >
               <CardContent className="p-0">
                 <div className="bg-white p-6 flex items-center justify-center">
@@ -64,7 +64,7 @@ export default function FeaturedProductSection() {
                   <h3 className="text-gray-800 text-center font-medium mb-2">
                     {product.name}
                   </h3>
-                  <p className="text-[#8B5E34] font-medium">
+                  <p className="text-scondary font-bold">
                     Rp. {product.price.toLocaleString()}
                   </p>
                 </div>
