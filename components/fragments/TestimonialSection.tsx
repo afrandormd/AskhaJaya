@@ -42,7 +42,7 @@ const testimonials = [
 
 export default function Testimonial() {
   return (
-    <section className="w-full py-12 bg-[#FFF4D9]">
+    <section className="max-w-full overflow-hidden py-12 bg-[#FFF4D9]">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold font-serif text-secondary mb-3">

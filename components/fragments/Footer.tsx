@@ -25,7 +25,7 @@ export default function Footer() {
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 border-t border-white/10 pt-8">
           <div className="text-center md:text-left">
-            <h3 className="text-[#FFB800] text-xl font-semibold mb-4">
+            <h3 className="text-primary text-xl font-semibold mb-4">
               Contact Us
             </h3>
             <p className="text-white/90 mb-6 text-sm md:text-base">
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
 
           <div className="text-center md:text-left">
-            <h3 className="text-[#FFB800] text-xl font-semibold mb-4">
+            <h3 className="text-primary text-xl font-semibold mb-4">
               Explore Askha Jaya
             </h3>
             <p className="text-white/90 mb-6 text-sm md:text-base">
