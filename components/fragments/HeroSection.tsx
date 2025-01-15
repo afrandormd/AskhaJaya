@@ -29,12 +29,14 @@ export default function HeroSection() {
                   All Products
                 </Button>
               </Link>
-              <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-white"
-              >
-                About Us
-              </Button>
+              <Link href="/about">
+                <Button
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-white"
+                >
+                  About Us
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="mx-auto lg:ml-auto">
